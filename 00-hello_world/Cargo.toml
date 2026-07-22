@@ -1,0 +1,9 @@
+[package]
+name = "hello_word"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# Cargo expects your source files to live inside the src directory. 
+
+[dependencies]
