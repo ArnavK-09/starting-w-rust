@@ -1,0 +1,19 @@
+[package]
+name = "releaseprofiles"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+# By adding [profile.*] sections for any profile you want to customize, you override any subset of the default settings. 
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+# The opt-level setting controls the number of optimizations 
+#  Rust will apply to your code, with a range of 0 to 3
+
+# https://doc.rust-lang.org/cargo/reference/profiles.html
