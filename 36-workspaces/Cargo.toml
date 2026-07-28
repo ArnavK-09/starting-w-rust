@@ -1,0 +1,16 @@
+ # We also make a point to use the latest and greatest version of 
+ #  Cargo’s resolver algorithm in our workspace by setting the resolver value to "3":
+[workspace]
+resolver = "3"
+members = ["add_one","adder"]
+# Running cargo new inside a workspace also automatically adds the newly created package to the members
+
+
+# A workspace is a set of packages that share the same Cargo.lock and output directory
+
+
+# To run the binary crate
+# 
+# we can specify which package in the workspace we want to run by using the -p argument and the package name with cargo run
+# 
+# cargo run -p adder

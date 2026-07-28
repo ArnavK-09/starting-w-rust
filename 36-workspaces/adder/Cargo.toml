@@ -1,0 +1,10 @@
+[package]
+name = "adder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+add_one = { path = "../add_one" }
+# Now we can have the adder package with our binary depend on the add_one package that has our library. 
+# 
+# Cargo doesn’t assume that crates in a workspace will depend on each other, so we need to be explicit about the dependency relationships.
