@@ -1,0 +1,10 @@
+# Adding Metadata to a New Crate
+
+[package]
+name = "my_crate-ArnavK-09"
+description = "learning from rust book"
+license = "MIT"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
