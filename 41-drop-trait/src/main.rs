@@ -3,8 +3,6 @@
 // which lets you customize what happens when a value is about to go out of scope.
 //  You can provide an implementation for the Drop trait on any type, and that code can be used to release resources like files or network connections.
 
-use std::fmt::Debug;
-
 struct MySmartPointer {
     data: String,
 }
