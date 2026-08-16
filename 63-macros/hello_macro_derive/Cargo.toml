@@ -1,0 +1,12 @@
+[package]
+name = "hello_macro_derive"
+version = "0.1.0"
+edition = "2024"
+
+# We need to declare the hello_macro_derive crate as a procedural macro crate
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0"
+quote = "1.0"
